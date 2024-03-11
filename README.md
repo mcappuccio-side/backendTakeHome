@@ -2,7 +2,7 @@ Please read the PLEASE_READ_FIRST.md first. ✅
 
 Please document your code & design decisions here.
 
-# Side Backend Engineer Interview Assessment#
+# Side Backend Engineer Interview Assessment
 
 Completed by Michael Cappuccio as part of benchmark for future candidacy
 
