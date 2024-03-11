@@ -12,7 +12,7 @@ Rest API using Nodejs and SQLite to manage a property list complete with input v
 
 ### CRUD Operations
 
-Routes defined in /src/routes/propertyRoutes.ts support:
+Routes defined in `/src/routes/propertyRoutes.ts` support:
 
 - Create a single, new property
 - Update a single property by Id
@@ -24,12 +24,12 @@ Routes defined in /src/routes/propertyRoutes.ts support:
 
 `GET /properties` supports the following query parameters:
 
-- address: exact match for `address`
-- addressPart: partial match for `address`
-- priceMin, priceMax: min and max values (inclusive) for `price`
-- bathroomsMin, bathroomsMax: min and max values (inclusive) for `bathrooms`
-- bedroomsMin, bedroomsMax: min and max values (inclusive) for `bedrooms`
-- type: exact match for `type`
+- `address`: exact match for `address`
+- `addressPart`: partial match for `address`
+- `priceMin`, `priceMax`: min and max values (inclusive) for `price`
+- `bathroomsMin`, `bathroomsMax`: min and max values (inclusive) for `bathrooms`
+- `bedroomsMin`, `bedroomsMax`: min and max values (inclusive) for `bedrooms`
+- `type`: exact match for `type`
 
 ### Pagination
 
